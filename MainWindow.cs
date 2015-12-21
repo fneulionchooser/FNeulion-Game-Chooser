@@ -232,6 +232,11 @@ namespace NHL_Game_Chooser
                 logic.jarFile = fuckNeulion.FileName;
             }
         }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("http://xrxs.net/nhl/");
+        }
     }
 
     class Logic
